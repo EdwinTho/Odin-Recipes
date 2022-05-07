@@ -1,0 +1,1 @@
+This project is to focus on all of the basic HTML fundementals that I have learned so far. This website will showcase that and will later be revisited to improve it with CSS.
