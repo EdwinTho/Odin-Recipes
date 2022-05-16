@@ -1,0 +1,159 @@
+body, html {
+    background: linear-gradient(180deg, #e3ffe7 0%, #d9e7ff 100%);
+
+    background-attachment: fixed;
+  }
+
+.body {
+    display: flex;
+    flex-direction: column;  
+}
+
+.bodyRecipe {
+    flex: 1;
+    display: flex;
+}
+
+
+.header {
+    padding: 60px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px #a7a7a7, 0px 0px 30px #000000;
+}
+
+.headerRecipe {
+    display: flex;
+    padding: 60px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(-90deg, #e3ffe7 0%, #d9e7ff 20%);
+    color: white;
+    text-shadow: 0 0 10px #a7a7a7, 0px 0px 30px #000000;
+}
+
+.sidebar {
+    width: 300px;
+    background: linear-gradient(180deg, #e3ffe7 0%, #d9e7ff 20%);
+    flex-shrink: 0;
+    padding: 16px;
+  }
+
+  .card {
+    
+    border-radius: 20px;
+background: #e0e0e0;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    
+  }
+
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+p, li, ul {
+    font-size: 17px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+   
+}
+
+.container-text {
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	padding: 20px;
+    text-align: left;
+    color: white;
+
+   
+   max-width: 80%;
+}
+
+img {
+    display:flex;
+    border-radius:5px;
+    width: 100%;
+    max-height: auto;
+}
+
+
+.containerImage {
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:25px;
+	padding: 20px;
+
+}
+
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0;
+    gap: 16px;
+    width: 100%;
+
+}
+
+.recipesCard {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+}
+
+/* button styles */
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display: flex;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    width: 500px;
+	padding: 50px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+    justify-content: center;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
