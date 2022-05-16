@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna Recipe</a>
-    <a href="recipes/oatmeal_peanut_butter_bars.html">Oatmeal Peanut Butter Recipe</a>
-    <a href="recipes/eggs_benedict_casserole.html">Eggs Benedict Casserole Recipe</a>
+    <div class="body">
+        <div class="header">
+            ODIN RECIPIES
+        </div>
+        <div class="container">
+            <div class="recipes">
+                <div onclick="location.href='recipes/lasagna.html';" class="myButton" >
+                    <a href="recipes/lasagna.html">Lasagna Recipe</a>
+                </div>
+                <div onclick="location.href='recipes/oatmeal_peanut_butter_bars.html';" class="myButton">
+                    <a href="recipes/oatmeal_peanut_butter_bars.html">Oatmeal Peanut Butter Recipe</a>
+                </div>
+                <div onclick="location.href='recipes/eggs_benedict_casserole.html';"class="myButton">
+                    <a href="recipes/eggs_benedict_casserole.html">Eggs Benedict Casserole Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
